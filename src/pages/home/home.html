@@ -1,17 +1,748 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>Home</ion-title>
+  <ion-navbar align-title="center" color="back">
+    <ion-title >CNC TV</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+<ion-content padding >
+    <ion-card class="image" >
+        <img src="assets/imgs/bein.png"/>
+        <ion-card-content>
+          <ion-card-title>
+            Bein Sport 1
+            </ion-card-title>
+            <button ion-button icon-only (click)="vid1()" full outline >
+                <ion-icon name="ios-play"></ion-icon>
+              </button>
+        </ion-card-content>
+      </ion-card>
+      <ion-card class="image" >
+          <img src="assets/imgs/bein.png"/>
+          <ion-card-content>
+            <ion-card-title>
+              Bein Sport 2
+              </ion-card-title>
+              <button ion-button icon-only (click)="vid2()" full outline >
+                  <ion-icon name="ios-play"></ion-icon>
+                </button>
+          </ion-card-content>
+        </ion-card>
+        <ion-card class="image" >
+            <img src="assets/imgs/bein.png"/>
+            <ion-card-content>
+              <ion-card-title>
+                Bein Sport 3
+                </ion-card-title>
+                <button ion-button icon-only (click)="vid3()" full outline >
+                    <ion-icon name="ios-play"></ion-icon>
+                  </button>
+            </ion-card-content>
+          </ion-card>
+          <ion-card class="image" >
+            <img src="assets/imgs/bein.png"/>
+            <ion-card-content>
+              <ion-card-title>
+                Bein Sport 4
+                </ion-card-title>
+                <button ion-button icon-only (click)="vid4()" full outline >
+                    <ion-icon name="ios-play"></ion-icon>
+                  </button>
+            </ion-card-content>
+          </ion-card>
+          <ion-card class="image" >
+              <img src="assets/imgs/bein.png"/>
+              <ion-card-content>
+                <ion-card-title>
+                  Bein Sport 5
+                  </ion-card-title>
+                  <button ion-button icon-only (click)="vid5()" full outline >
+                      <ion-icon name="ios-play"></ion-icon>
+                    </button>
+              </ion-card-content>
+            </ion-card>
+            <ion-card class="image" >
+                <img src="assets/imgs/bein.png"/>
+                <ion-card-content>
+                  <ion-card-title>
+                    Bein Sport 6
+                    </ion-card-title>
+                    <button ion-button icon-only (click)="vid6()" full outline >
+                        <ion-icon name="ios-play"></ion-icon>
+                      </button>
+                </ion-card-content>
+              </ion-card>
+              <ion-card class="image" >
+                <img src="assets/imgs/bein.png"/>
+                <ion-card-content>
+                  <ion-card-title>
+                    Bein Sport 7
+                    </ion-card-title>
+                    <button ion-button icon-only (click)="vid7()" full outline >
+                        <ion-icon name="ios-play"></ion-icon>
+                      </button>
+                </ion-card-content>
+              </ion-card>
+              <ion-card class="image" >
+                  <img src="assets/imgs/bein.png"/>
+                  <ion-card-content>
+                    <ion-card-title>
+                      Bein Sport 8
+                      </ion-card-title>
+                      <button ion-button icon-only (click)="vid8()" full outline >
+                          <ion-icon name="ios-play"></ion-icon>
+                        </button>
+                  </ion-card-content>
+                </ion-card>
+                <ion-card class="image" >
+                    <img src="assets/imgs/bein.png"/>
+                    <ion-card-content>
+                      <ion-card-title>
+                        Bein Sport 9
+                        </ion-card-title>
+                        <button ion-button icon-only (click)="vid9()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/bein.png"/>
+                    <ion-card-content>
+                      <ion-card-title>
+                        Bein Sport 10
+                        </ion-card-title>
+                        <button ion-button icon-only (click)="vid10()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <!-- -cccddcdcdcdcdcdc  -->
+                  <ion-card class="image" >
+                    <img src="assets/imgs/abusport.png"/>
+                    <ion-card-content>
+                      <ion-card-title>
+                        Ad Sports
+                        </ion-card-title>
+                        <button ion-button icon-only (click)="vid11()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/abusport.png"/>
+                    <ion-card-content>
+                      <ion-card-title>
+                        Ad Sports
+                        </ion-card-title>
+                        <button ion-button icon-only (click)="vid12()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/abusport.png"/>
+                    <ion-card-content>
+                      <ion-card-title>
+                        Ad Sports
+                        </ion-card-title>
+                        <button ion-button icon-only (click)="vid13()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/abusport.png"/>
+                    <ion-card-content>
+                      <ion-card-title>
+                        Ad Sports
+                        </ion-card-title>
+                        <button ion-button icon-only (click)="vid14()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <!-- -cccddcdcdcdcdcdc  -->
+                  <ion-card class="image" >
+                    <img src="assets/imgs/kass.jpg"/>
+                    <ion-card-content>
+                      <ion-card-title>
+                        Al Kass
+                        </ion-card-title>
+                        <button ion-button icon-only (click)="vid15()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  
+                  <ion-card class="image" >
+                    <img src="assets/imgs/kass.jpg"/>
+                    <ion-card-content>
+                      <ion-card-title>
+                        Al Kass
+                        </ion-card-title>
+                        <button ion-button icon-only (click)="vid16()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/kass.jpg"/>
+                    <ion-card-content>
+                      <ion-card-title>
+                        Al Kass
+                        </ion-card-title>
+                        <button ion-button icon-only (click)="vid17()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/kass.jpg"/>
+                    <ion-card-content>
+                      <ion-card-title>
+                        Al Kass
+                        </ion-card-title>
+                        <button ion-button icon-only (click)="vid18()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/kass.jpg"/>
+                    <ion-card-content>
+                      <ion-card-title>
+                        Al Kass
+                        </ion-card-title>
+                        <button ion-button icon-only (click)="vid19()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <!-- fdfffddffdffdfd -->
+                  <ion-card class="image" >
+                    <img src="assets/imgs/foxmovies.png"/>
+                    <ion-card-content>
+                      <ion-card-title>
+                        Fox Movies
+                        </ion-card-title>
+                        <button ion-button icon-only (click)="vid20()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <!-- hghghghhghgh -->
+                  <ion-card class="image" >
+                    <img src="assets/imgs/foxmovies.png"/>
+                    <ion-card-content>
+                      <ion-card-title>
+                        Junior
+                        </ion-card-title>
+                        <button ion-button icon-only (click)="vid21()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <!-- jfhfhfhhf -->
+                  <ion-card class="image" >
+                    <img src="assets/imgs/starw.png"/>
+                    <ion-card-content>
+                      <ion-card-title>
+                        Star Word
+                        </ion-card-title>
+                        <button ion-button icon-only (click)="vid22()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/starw.png"/>
+                    <ion-card-content>
+                      <ion-card-title>
+                        Star Word
+                        </ion-card-title>
+                        <button ion-button icon-only (click)="vid23()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/starw.png"/>
+                    <ion-card-content>
+                      <ion-card-title>
+                        Star Word
+                        </ion-card-title>
+                        <button ion-button icon-only (click)="vid24()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <!--  hfhfdhfdihdfd -->
+                  <ion-card class="image" >
+                    <img src="assets/imgs/ftaf.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid25()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/ftaf.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid26()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <!-- hghsgdhsdgh -->
+                  <ion-card class="image" >
+                    <img class="circle-pic" src="assets/imgs/osnya.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid27()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <!-- ghsdhgdhg -->
+                  <ion-card class="image" >
+                    <img src="assets/imgs/artmov.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid28()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <!-- jkdfkjdfjkdf -->
+                  <ion-card class="image" >
+                    <img src="assets/imgs/osnmov.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid29()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/idxhd.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid30()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <!-- jkddkjjdkjkdjdj -->
+                  <ion-card class="image" >
+                    <img src="assets/imgs/discov.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid31()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/discov.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid32()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/discov.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid33()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/discov.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid34()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <!-- jjdfjdjfdjjfd -->
+                  <ion-card class="image" >
+                    <img src="assets/imgs/comd.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid35()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/comd.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid36()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/comd.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid37()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/comd.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid38()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/comd.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid39()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/comd.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid40()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <!-- kkkfkkfkfkfkkffk -->
+
+<ion-card class="image" >
+                    <img src="assets/imgs/artmov.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid41()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/artmov.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid42()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/artmov.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid43()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/artmov.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid44()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/artmov.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid45()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <!-- jfjjfjfjfjjdkkdkdk -->
+                  <ion-card class="image" >
+                    <img src="assets/imgs/cnarb.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid46()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <!-- hhfhfhfhhfhfh -->
+                  <ion-card class="image" >
+                    <img src="assets/imgs/beinmov.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid47()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/beinmov.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid48()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/beinmov.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid49()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/beinmov.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid50()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/beinmov.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid51()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <!-- fkkfkfkk -->
+                  <ion-card class="image" >
+                    <img src="assets/imgs/disn.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid52()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <!-- kkfkfkfkf -->
+                  <ion-card class="image" >
+                    <img src="assets/imgs/natgeo.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid53()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/natgeo.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid54()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <!-- hhghhghghghhg -->
+                  <ion-card class="image" >
+                    <img src="assets/imgs/foxhd.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid55()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/foxhd.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid56()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/foxhd.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid57()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <!-- hhffhhffh -->
+                  <ion-card class="image" >
+                    <img src="assets/imgs/osnya.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid58()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/osnya.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid59()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/osnmov.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid60()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/osnmov.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid61()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/osnmov.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid62()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/osnmov.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid63()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/osnmov.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid64()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/osnmov.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid65()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/osnmov.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid66()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/osnmov.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid67()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/osnmov.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid68()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/osnmov.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid69()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/osnmov.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid70()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/osnmov.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid71()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/osnmov.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid72()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/osnmov.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid73()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/osnmov.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid74()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/ehd.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid75()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/tlc.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid76()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/tlc.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid77()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/osnmov.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid78()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  <ion-card class="image" >
+                    <img src="assets/imgs/osnmov.png"/>
+                    <ion-card-content>
+                        <button ion-button icon-only (click)="vid79()" full outline >
+                            <ion-icon name="ios-play"></ion-icon>
+                          </button>
+                    </ion-card-content>
+                  </ion-card>
+                  
+                  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 </ion-content>
